@@ -1,2 +1,9 @@
-package org.example;public class SortedByAddress {
+package org.example.printer;
+
+public class SortedByAddress implements Sorter {
+
+    public void sortDetails(){
+        System.out.printf("Sort");
+    }
+
 }

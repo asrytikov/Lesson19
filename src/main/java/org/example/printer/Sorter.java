@@ -1,2 +1,7 @@
-package org.example;public interface Sorted {
+package org.example.printer;
+
+public interface Sorter {
+
+    void sortDetails();
+
 }
